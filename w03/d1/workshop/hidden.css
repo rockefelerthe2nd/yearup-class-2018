@@ -1,0 +1,42 @@
+/* //before scroll the nav bar color is same as seciton_one after scroll it changes to white */
+.nav_bar{
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  height: 10%;
+}
+.section_one{
+  background-color: #E1B0C3;
+  height: 800px;
+  width: 100%;
+}
+
+.image_on_left_one{
+  width: 50%;
+  height: 800px;
+}
+.image_one{
+  height: 800px;
+}
+.para_on_right_one{
+    width: 50%;
+    height: 800px;
+}
+.section_two{
+  background-color: #da9eb5;
+  height: 800px;
+  width: 100%;
+}
+.section_three{
+  background-color: #d38ba7;
+  height: 800px;
+  width: 100%;
+}
+.section_four{
+  background-color:#cc7999;
+  height: 800px;
+  width: 100%;
+}
+*{
+  margin: 0;
+}
