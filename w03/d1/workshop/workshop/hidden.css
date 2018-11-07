@@ -1,0 +1,398 @@
+/* //before scroll the nav bar color is same as seciton_one after scroll it changes to white */
+.nav_bar{
+  position: fixed;
+  background-color: #f4eaee;
+  width: 100%;
+  height: 85px;
+}
+
+a{
+  display: inline-block;
+  margin-top: 35px;
+  float: left;
+  margin-left: 25px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 13px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+.one{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.middle{
+  color: #000;
+  font-size: 48px;
+  text-transform: none;
+  margin-left: 350px;
+  font-family: 'Amatic SC', cursive;
+  margin-top: 10px;
+  margin-right: 350px;
+}
+.middle:hover{
+  text-decoration: none;
+}
+.four{
+  margin-left: 50px;
+  margin-right: 25px;
+}
+/* anchor styling ends here */
+
+/*styling the section_one of my page*/
+.section_one{
+  background-color: #E1B0C3;
+  height: 700px;
+  width: 100%;
+  transition: .5s;
+}
+
+.image_on_left_one{
+  float: left;
+  width: 50%;
+  height: 700px;
+}
+.image_one{
+  height: 700px;
+}
+.para_on_right_one{
+  float: right;
+    width: 50%;
+    height: 700px;
+}
+/* This styles the word FED UP **/
+.words{
+  font-size: 96px;
+  font-weight: 750;
+}
+
+/* styling heading h1 of section_one */
+.routine{
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  line-height: 1.1;
+  text-align: left;
+  color: #000d1a;
+  margin-top: 200px;
+  margin-right: 100px;
+  padding-bottom: 25px;
+  font-weight: 600;
+  text-shadow: 0.5px 0.5px #000d1a;
+}
+
+/* styling paragraph one of section_one */
+.para_one{
+  font-family: 'Roboto', serif;
+  color: #000d1a;
+  font-size: 18px;
+  font-weight: 600;
+  /* text-shadow: 0.5px 0.5px #000d1a; */
+  line-height: 1.5;
+  margin-right: 100px;
+  text-align: justify;
+  padding: 0 0px 40px;
+}
+/* styling section_one ends here */
+
+
+/* styling section_two begins here */
+.section_two{
+  background-color: #da9eb5;
+  height: 800px;
+  width: 100%;
+  transition: .5s;
+  overflow: hidden;
+  position: relative;
+}
+.image_two {
+   opacity: 0.8;
+   position: relative;
+   height: 800px;
+   width: 100%;
+}
+
+.content_two {
+   position: absolute;
+   top: 300px;
+   left: 0;
+   width: 80%;
+   height: 100px;
+   margin: 0 auto;
+   padding: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;;
+   background-color: #fff;
+   border-radius: 3px;
+}
+
+.content_two:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.para_two{
+  font-family: 'Vollkorn', serif;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* styling section_two ends here */
+
+
+/** Styling section_three but comes second on the view**/
+
+.section_three{
+  background-color: #d38ba7;
+  height: 800px;
+  width: 100%;
+  transition: .5s;
+  position: relative;
+}
+
+.para_on_right_two{
+    position: absolute;
+    bottom: 20px;
+    top:250px;
+    width:100%;
+    height: 200px;
+    color: white;
+}
+.routine2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 84px;
+  width: 350px;
+  color:#fbfbfb;
+  line-height: 1;
+  margin-right: 50px;
+  margin-left:140px;
+  font-weight: 700;
+  text-shadow: 0.7px 0.7px #808080;
+}
+/** styling paragraph for view 2nd but section_three **/
+.para_three{
+  font-family: 'Roboto', serif;
+  color: #fbfbfb;
+  width:25%;
+  font-size: 18px;
+  border-radius: 3px;
+  margin-top:25px;
+  margin-right: 50px;
+  margin-left:140px;
+  font-weight: 600;
+  line-height: 1.1;
+  text-shadow: 0.3px .4px #000;
+  margin-right: 100px;
+  text-align: justify;
+  padding: 0 0px 40px;
+
+}
+/* styling section_four of my page */
+.section_four{
+  background-color:#FFF;
+  height: 700px;
+  width: 100%;
+  transition: .5s;
+  display: block;
+}
+
+.text{
+    float: left;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 125px;
+    margin-top: 250px;
+}
+
+.eyebrow{
+font-family:'Roboto', sans-serif;
+margin-bottom: 8px;
+font-size: 14px;
+text-transform: uppercase;
+}
+.h2{
+  font-family:'Roboto', sans-serif;
+  margin-bottom: 15px;
+}
+.spot_para{
+  font-family:'Roboto', sans-serif;
+  width: 30vw;
+  color:rgba(0,0,0,0.5);
+  line-height: 1.5;
+}
+.reserve_spot{
+  margin-left: 0px;
+}
+
+.running_line{
+  background-color: #000;
+  width: 1.5px;
+  margin-top: 70px;
+  margin-left: 100px;
+  height: 0px;
+  animation: moveline 2s linear;
+}
+@keyframes moveline {
+  0%{
+    height:0px;
+  }
+  20%{
+    height: 100px;
+  }
+  40%{
+    height: 150px;
+  }
+  60%{
+    height: 250px;
+  }
+  80%{
+    height: 150px;
+  }
+  100%{
+    height: 0px;
+  }
+
+}
+
+.image-wrapper{
+  float: left;
+  display: block;
+  margin-left: 120px;
+  margin-top: 180px;
+  position: relative;
+}
+
+video{
+  width:43vw;
+  transition: 0.5s;
+  border-radius: 3px;
+
+}
+.in_light{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.in_light:hover{
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+
+
+/* styling section_four of my page ends here*/
+
+/* styling section_five of my page */
+
+.section_five{
+  background-color:#000204;
+  height: 700px;
+  width: 100%;
+  transition: .5s;
+  display: block;
+}
+.text2{
+    float: left;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    height:800px;
+    margin-left: 125px;
+    margin-top: 250px;
+}
+
+.eyebrow2{
+font-family:'Roboto', sans-serif;
+margin-bottom: 8px;
+text-shadow: 0.5px 0.8px rgba(255,255,0, 0.5);
+font-size: 14px;
+text-transform: uppercase;
+color: #fbfbfb;
+}
+.h22{
+  font-family:'Roboto', sans-serif;
+  margin-bottom: 15px;
+  text-shadow: 0.5px 0.8px rgba(255,255,0, 0.5);
+  color: #fff;
+}
+.spot_para_two{
+  font-family:'Roboto', sans-serif;
+  width: 30vw;
+  color: #fbfbfb;
+  line-height: 1.5;
+}
+
+.reserve_spot2{
+  margin-left: 0px;
+  color: #fff;
+  text-shadow: 0.5px 0.8px rgba(255,255,0, 0.5);
+}
+.continue_line{
+    background-color: #fff;
+    width: 1px;
+    margin-left: 225px;
+    height:0px;
+    position:absolute;
+    animation: continue_move_line 2s linear;
+    animation-delay: 2s;
+}
+@keyframes continue_move_line {
+  0%{
+    height:0px;
+  }
+  20%{
+    height: 60px;
+  }
+  40%{
+    height: 120px;
+  }
+  60%{
+    height: 180px;
+  }
+  80%{
+    height: 90px;
+  }
+  100%{
+    height: 0px;
+  }
+
+}
+
+.image-wrapper2{
+  float: left;
+  display: block;
+  margin-left: 120px;
+  position: relative;
+  margin-top: 200px;
+}
+
+.in_dark{
+  box-shadow: 0 0.5px 2px 0 #fbfbfb;
+}
+.in_dark:hover{
+  box-shadow: 0 1px 6px 0 #fff;
+}
+/* styling section_five of my page ends here */
+
+
+/* styling for last section of my page */
+
+/* .section_last{
+  background-color:#d38ba7;
+  height: 700px;
+  width: 100%;
+  transition: .5s;
+  display: block;
+} */
+
+body {
+  width: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
