@@ -1,0 +1,103 @@
+body {
+  color: white;
+  font-family: sans-serif;
+  background: rebeccapurple;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#box {
+  width: 500px;
+  height: 400px;
+  background-color: #0008;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: justify;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 50px 50px 50px;
+  transition: .5s;
+  border-radius: 3px;
+  box-shadow: 0px 0px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 5s Infinite linear;
+}
+.next_button {
+  background: tomato;
+  border: none;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 20px;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top:20px;
+  transition: .5s;
+  border-radius: 3px;
+  box-shadow: 0px 0px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 5s Infinite linear;
+}
+@keyframes fadeIn {
+  0%{
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.5);
+
+  }
+  25%{
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+
+  }
+  50%{
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.5);
+  }
+  75%{
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  }
+  100%{
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.flapy_bird{
+  background-color: #fff;
+  width: 100%;
+  height: 1000px;
+  transform-style: preserve-3d;
+}
+.above_ground{
+  width: 100%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+    background: url(gravit.jpg);
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    transition: 5s;
+    animation: loadback 2000s linear infinite;
+
+}
+
+.background_building{
+  height: 100vh;
+  background: url(gravit.jpg);
+  background-position: 0px 0px;
+  transition: 5s;
+  animation: loadback 2000s linear infinite;
+}
+@keyframes loadback {
+ from{
+    background-position: 0 0;
+  }
+  to{
+    background-position: -200000% 0;
+  }
+}
+.bird{
+  height: 200;
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+}
