@@ -1,42 +1,208 @@
 /* //before scroll the nav bar color is same as seciton_one after scroll it changes to white */
 .nav_bar{
   position: fixed;
-  background-color: #fff;
+  background-color: #f4eaee;
   width: 100%;
-  height: 10%;
+  height: 85px;
 }
+
+a{
+  display: inline-block;
+  margin-top: 35px;
+  float: left;
+  margin-left: 25px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 13px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+.one{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.middle{
+  color: #000;
+  font-size: 48px;
+  text-transform: none;
+  margin-left: 350px;
+  font-family: 'Amatic SC', cursive;
+  margin-top: 10px;
+  margin-right: 350px;
+}
+.middle:hover{
+  text-decoration: none;
+}
+.four{
+  margin-left: 50px;
+  margin-right: 25px;
+}
+/* .one{
+
+  color: #000;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.two{
+  color: #000;
+}.three{
+  color: #000;
+}.four{
+  color: #000;
+} */
 .section_one{
   background-color: #E1B0C3;
-  height: 800px;
+  height: 700px;
   width: 100%;
+  transition: .5s;
 }
 
 .image_on_left_one{
+  float: left;
   width: 50%;
-  height: 800px;
+  height: 700px;
 }
 .image_one{
-  height: 800px;
+  height: 700px;
 }
 .para_on_right_one{
+  float: right;
     width: 50%;
-    height: 800px;
+    height: 700px;
 }
+/* This styles the word FED UP **/
+.words{
+  font-size: 92px;
+
+}
+
+/* styling heading h1 of section_one */
+.routine{
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  margin-top: 200px;
+  margin-right: 50px;
+  padding-bottom: 24px;
+  font-weight: 700;
+  text-shadow: 0.5px 0.5px #808080;
+}
+
+/* styling paragraph one of section_one */
+.para_one{
+  font-family: 'Roboto', serif;
+  flex-direction: column;
+color: rgba(0, 0, 0, 0.87);
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+margin-left: 50px;
+margin-right: 100px;
+text-align: center;
+padding: 0 30px 40px;
+text-shadow: 0.5px 0.5px #808080;
+}
+
 .section_two{
   background-color: #da9eb5;
   height: 800px;
   width: 100%;
+  transition: .5s;
+  overflow: hidden;
+  position: relative;
 }
+.slide{
+  /* display: none; */
+}
+.image_two {
+   opacity: 0.8;
+   position: relative;
+   height: 800px;
+   width: 100%;
+}
+
+.content_two {
+   position: absolute;
+   top: 300px;
+   left: 0;
+   width: 80%;
+   height: 100px;
+   margin: 0 auto;
+   padding: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;;
+   background-color: #fff;
+   border-radius: 5px;
+}
+
+.content_two:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.para_two{
+  font-family: 'Vollkorn', serif;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.timer {
+  border-radius: 2px;
+  height: 1%;
+  width: 10%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #09f;
+  z-index: 10;
+}
+
+/** Styling section_three but comes second on the view**/
+
 .section_three{
   background-color: #d38ba7;
   height: 800px;
   width: 100%;
+  transition: .5s;
+  position: relative;
+}
+
+.routine2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 50px;
+  font-weight: 700;
+  text-shadow: 0.5px 0.5px #808080;
+}
+/** styling paragraph for view 2nd **/
+.para_on_right_two{
+  position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
 }
 .section_four{
   background-color:#cc7999;
-  height: 800px;
+  height: 700px;
+  width: 100%;
+  transition: .5s;
+}
+body {
+  height: 2700px;
   width: 100%;
 }
+
 *{
   margin: 0;
-}
+  padding: 0;

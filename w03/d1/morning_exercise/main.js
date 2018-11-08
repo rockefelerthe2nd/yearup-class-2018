@@ -29,7 +29,7 @@ function changeColorL(){
     count=4;
   }
       document.querySelector('.imageholder').style.backgroundColor = color[count];
-      console.log("count:\t"+count);
+
 }
 function changeColorR(){
     count++;
@@ -37,5 +37,5 @@ function changeColorR(){
     count = 0;
   }
   document.querySelector('.imageholder').style.backgroundColor = color[count];
-console.log("count:\t"+count);
+
 }

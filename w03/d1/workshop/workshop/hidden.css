@@ -61,7 +61,7 @@ a:hover{
   height: 700px;
 }
 .para_on_right_one{
-  float: right;
+    float: right;
     width: 50%;
     height: 700px;
 }
@@ -103,12 +103,13 @@ a:hover{
 /* styling section_two begins here */
 .section_two{
   background-color: #da9eb5;
-  height: 800px;
+  height: 700px;
   width: 100%;
   transition: .5s;
   overflow: hidden;
   position: relative;
 }
+
 .image_two {
    opacity: 0.8;
    position: relative;
@@ -150,7 +151,7 @@ a:hover{
 
 .section_three{
   background-color: #d38ba7;
-  height: 800px;
+  height: 700px;
   width: 100%;
   transition: .5s;
   position: relative;
@@ -164,6 +165,7 @@ a:hover{
     height: 200px;
     color: white;
 }
+
 .routine2{
   font-family: 'Roboto', sans-serif;
   font-size: 84px;
@@ -212,10 +214,11 @@ a:hover{
 }
 
 .eyebrow{
-font-family:'Roboto', sans-serif;
-margin-bottom: 8px;
-font-size: 14px;
-text-transform: uppercase;
+  font-family:'Roboto', sans-serif;
+  margin-bottom: 8px;
+  font-size: 14px;
+  text-transform: uppercase;
+
 }
 .h2{
   font-family:'Roboto', sans-serif;
@@ -238,25 +241,23 @@ text-transform: uppercase;
   margin-left: 100px;
   height: 0px;
   animation: moveline 2s linear;
+  animation-delay: 5s;
 }
 @keyframes moveline {
   0%{
     height:0px;
   }
-  20%{
-    height: 100px;
+  25%{
+    height: 63px;
   }
-  40%{
-    height: 150px;
+  50%{
+    height: 125px;
   }
-  60%{
-    height: 250px;
-  }
-  80%{
-    height: 150px;
+  75%{
+    height: 188px;
   }
   100%{
-    height: 0px;
+    height: 250px;
   }
 
 }
@@ -293,6 +294,7 @@ video{
   width: 100%;
   transition: .5s;
   display: block;
+  position: absolute;
 }
 .text2{
     float: left;
@@ -305,12 +307,13 @@ video{
 }
 
 .eyebrow2{
-font-family:'Roboto', sans-serif;
-margin-bottom: 8px;
-text-shadow: 0.5px 0.8px rgba(255,255,0, 0.5);
-font-size: 14px;
-text-transform: uppercase;
-color: #fbfbfb;
+  font-family:'Roboto', sans-serif;
+  margin-bottom: 8px;
+  text-shadow: 0.5px 0.8px rgba(255,255,0, 0.5);
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fbfbfb;
+
 }
 .h22{
   font-family:'Roboto', sans-serif;
@@ -337,26 +340,23 @@ color: #fbfbfb;
     height:0px;
     position:absolute;
     animation: continue_move_line 2s linear;
-    animation-delay: 2s;
+    animation-delay: 7s;
 }
 @keyframes continue_move_line {
   0%{
     height:0px;
   }
-  20%{
-    height: 60px;
+  25%{
+    height: 45px;
   }
-  40%{
-    height: 120px;
-  }
-  60%{
-    height: 180px;
-  }
-  80%{
+  50%{
     height: 90px;
   }
+  75%{
+    height: 135px;
+  }
   100%{
-    height: 0px;
+    height: 180px;
   }
 
 }
