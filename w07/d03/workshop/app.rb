@@ -1,4 +1,4 @@
-require 'faker'     # './' was missing here
+require 'faker'    
 require './student'
 require './classroom'
 require './grade'
