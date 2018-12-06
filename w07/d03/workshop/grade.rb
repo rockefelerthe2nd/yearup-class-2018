@@ -1,8 +1,9 @@
 class Grade
-  attr_accessor :subject, :score
+  attr_accessor :subject
+  attr_accessor :score
 
   def initialize(subject, score)
-    @subject = subject,
+    @subject = subject
     @score = score
   end
 

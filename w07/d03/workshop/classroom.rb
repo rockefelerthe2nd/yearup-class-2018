@@ -8,15 +8,17 @@ class Classroom
   end
 
   def addStudent(student)
-    if @students[student.name]
-      raise "Sorry, #{student} is already in here."
+    if @students.key?(student.name)
+      puts "Sorry, #{student.name} is already in here."
     end
-    @students.push(student)
+    @students[student.name] = student
   end
 
   def roster
     puts @name + " roster:"
+    # key is the student name and value here is the student object
     @students.each do |key, value|
+      # puts value.inspect
       puts "#{value.name}: #{value.age}"
     end
   end

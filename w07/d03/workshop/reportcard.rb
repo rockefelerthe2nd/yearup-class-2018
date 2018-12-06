@@ -5,20 +5,20 @@ class Reportcard
   end
 
   def addGrade(grade)
-    if @grades[grade.subject]
-      raise "Sorry, you cannot add or change #{subject} because it was already entered."
+    if @grades.key?(grade.subject)
+      raise "Sorry, you cannot add or change #{grade.subject} grade because it was already entered."
     end
-    @grades[grade.subject]
+    @grades[grade.subject] = grade.score
   end
 
   def printCard
     @grades.each do |subject, grade|
-      puts "Subject: #{subject} - #{grade.score}"
+      puts "Subject: #{grade.subject} - #{grade.score}"
     end
   end
 
   def grades
-    @grades
+  @grades
   end
 
 end
